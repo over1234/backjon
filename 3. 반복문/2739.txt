@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+	int j;
+	scanf("%d", &j);
+	for (int i = j; i <= j; i++)
+	{
+		for ( int a = 1; a <= 9; a++)
+		{
+			printf("%d * %d = %d\n", i, a, i * a);
+		}
+	}
+		return 0;
+}
